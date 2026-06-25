@@ -1,0 +1,50 @@
+project:
+  type: website
+  output-dir: docs
+  render:
+    - "*.qmd"
+    - "classtree.Rmd"
+    - "pvalue.Rmd"
+    - "ci.Rmd"
+    - "regularized.Rmd"
+    - "regresstree.Rmd"
+    - "ensemble_rf.Rmd"
+    - "pca.Rmd"
+    - "logit_reg.Rmd"
+    - "probvslike.Rmd"
+    - "clt.Rmd"
+
+website:
+  title: "Home"
+  navbar:
+    left:
+      - text: "Machine Learning"
+        menu:
+          - text: "Regularized Linear Models"
+            href: regularized.html
+          - text: "Decision Trees Concept"
+            href: trees.html
+          - text: "Classification Trees"
+            href: classtree.html
+          - text: "Regression Trees"
+            href: regresstree.html
+          - text: "PCA"
+            href: pca.html
+
+      - text: "Statistics"
+        menu:
+          - text: "Misconceptions About CIs"
+            href: ci.html
+          - text: "P-value"
+            href: pvalue.html
+          - text: "Probability vs Likelihood"
+            href: probvslike.html
+          - text: "MLE"
+            href: mle.html
+          - text: "Central Limit Theorem"
+            href: clt.html
+
+format:
+  html:
+    theme: cosmo
+    highlight-style: textmate
