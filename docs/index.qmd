@@ -1,0 +1,14 @@
+---
+title: "Machine Learning Concepts"
+format:
+  html:
+    theme: cosmo
+    fontsize: 13pt
+    mainfont: Arial
+---
+
+<style> body {text-align: justify} </style>
+
+Hi there, I'm Seunghoon, a Data Scientist at Munich Re based in New York City. My primary responsibilities include developing various pricing models by utilizing large-scale & unstructured 12 million+ quotes. I also create ETL data pipelines and EDA notebooks for actuaries. Lastly, I worked on integrating and validating external data via APIs to enhance data enrichment processes.
+
+Before joining Munich Re, I spent 3.5 years as an R&D Data Analyst at a biochemical company in Windsor, Wisconsin, specializing in bovine genetics. In this role, I applied machine learning models and time series forecasting techniques to predict Y-skew measurements and sperm motility, driving data-driven improvements in reproductive biotechnology.
