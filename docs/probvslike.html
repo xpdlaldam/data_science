@@ -266,7 +266,7 @@ body {
 <span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">pnorm</span>(cutoff, <span class="at">mean =</span> m , <span class="at">sd =</span> std) <span class="co"># Check area under the curve that's below the cutoff (pnorm() returns area under the curve)</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
 <div class="cell-output cell-output-stdout">
 <pre><code>        5% 
-0.05013011 </code></pre>
+0.04997107 </code></pre>
 </div>
 <div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> weight)) <span class="sc">+</span></span>
 <span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>() <span class="sc">+</span></span>
